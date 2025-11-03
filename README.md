@@ -35,5 +35,5 @@ Uses tqdm for progress bars during training and inference <br>
 Place normal training images in images_train/ folder <br>
 Place test images in images_All/ folder <br>
 Run the script <br>
-Check anomaly_output/ for results <br>
+Check anomaly_output/ for results <br><br>
 The anomaly score represents how different an image is from the normal training set, with higher scores indicating more anomalous content. The heatmap shows which regions of the image contribute most to the anomaly score.
