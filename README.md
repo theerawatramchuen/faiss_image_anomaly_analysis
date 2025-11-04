@@ -12,6 +12,11 @@ scikit-learn>=0.24.0
 tqdm>=4.50.0
 numpy>=1.19.0
 ```
+Optional for speed performance with machine Cuda GPU
+```
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+```
+
 Anomaly score 114.4
 <img width="1766" height="598" alt="image" src="https://github.com/user-attachments/assets/2141b4f8-aa04-40f9-bdb8-749e667c558e" />
 Anomaly score 1364.1
