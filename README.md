@@ -52,3 +52,4 @@ model = models.resnet50(pretrained=True)
 # Or vision transformers
 model = models.vit_b_16(pretrained=True)
 ```
+2. ### Batch Processing
