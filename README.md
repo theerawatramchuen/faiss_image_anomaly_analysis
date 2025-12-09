@@ -42,3 +42,13 @@ Place test images in images_All/ folder <br>
 Run the script <br>
 Check anomaly_output/ for results <br><br>
 The anomaly score represents how different an image is from the normal training set, with higher scores indicating more anomalous content. The heatmap shows which regions of the image contribute most to the anomaly score.
+
+### Future Development Recommendations
+1. ### 1. Enhanced Feature Extraction
+```
+python
+# Consider using more powerful backbones
+model = models.resnet50(pretrained=True)
+# Or vision transformers
+model = models.vit_b_16(pretrained=True)
+```
